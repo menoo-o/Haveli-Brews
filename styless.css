@@ -38,6 +38,7 @@ body{
     font-family: var(--paragraph-font);
     font-size: 16px;
     line-height: 1.5;
+    /* fix thiss */
     background-color: beige;
 }
 
@@ -49,7 +50,7 @@ body{
     padding: 0.5rem 1rem 0.5rem 0rem;
     width: 100vw;
     /* fix this */
-    height: 105px; 
+    height:6.5rem; 
   
     }
 
@@ -83,7 +84,6 @@ body{
     display: block;
     background-color: var(--accent-color-2);
     width: 100vw;
-    height: 110vh;
     overflow: hidden;
 }
 /* cccccccccccccccccccccccc */
@@ -94,7 +94,10 @@ body{
 
 .drop-down{
     display: block;
+    height: 100vh;
+    overflow: hidden;
 }
+
 .menu ul{
     list-style: none;
     padding: 0;
@@ -141,13 +144,18 @@ body{
 }
 
 .hero {
+    display: block;
     position: relative;
     width: 100%; /* Adjust the width as needed */
-    height: 500px; /* Adjust the height as needed */
+    height: 29.37rem; /* Adjust the height as needed */
     background-image: url('./pics/hero2.jpg'); /* Set the background image */
     background-size: cover;
     background-position: center;
+    overflow: hidden;
   }
+
+
+  
 .discover-btn {
     position: absolute;
     bottom: 6rem; /* Adjust this value to fine-tune the button's position */
@@ -189,7 +197,14 @@ body{
     margin: 0;
 }
 
+.check{
+    display: none;
+}
 
 
+
+
+ 
+  
 
 
