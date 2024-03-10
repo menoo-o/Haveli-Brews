@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Jomolhari&family=Marcellus&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+/* ////////////////////////////////////////////////////////// */
+
+:root {
+    --color-xanthous: #f7b623;
+  --color-eerie-black: #1c191aff;
+  --color-jet: #2f2b2aff;
+  --color-coffee: rgb(116, 78, 54);
+  --color-Licorice:#25191a;
+  --color-bistre:#25191a;
+  --color-goldenBrown:#a3742b;
+  --color-silver:#abaaa8;
+
+  --color-sealBrown:#613722;
+  --color-whiteSmoke:#f7f6f3;
+  --color-battleshipgray:#A19C97;
+  --color-walnutBrown:#5E524A;
+  --color-timeberwolf:#D9D5D0;
+
+  /*Fonts  */
+  --font-crimson-pro: 'Crimson Pro', serif;
+  --font-jomolhari: 'Jomolhari', serif;
+  --font-marcellus: 'Marcellus', serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-mukta: 'Mukta', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--primary-color-2);
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: beige;
+}
+
+
+.nav-header{
+    display: flex; /* Allow elements to stack horizontally */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Align horizontally in the middle */
+    padding: 0.5rem 1rem 0.5rem 0rem;
+    width: 100vw;
+    /* fix this */
+    height: 105px; 
+  
+    }
+
+.navbar-classic{
+    background-color: #f8f7f4;
+}    
+
+
+/* js logic applied */
+.nav-off{
+  display: none;
+}
+
+
+    /* menu button */
+.nav-toggle{
+    border: none;   
+    cursor: pointer;
+    color: var(--accent-color-2);
+    background-color: inherit;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.close{
+    color: white;
+}
+/* menu links */
+.links{
+    display: block;
+    background-color: var(--accent-color-2);
+    width: 100vw;
+    height: 110vh;
+    overflow: hidden;
+}
+/* cccccccccccccccccccccccc */
+.menu{
+    display: none;
+    background-color: var(--color-eerie-black);
+}
+
+.drop-down{
+    display: block;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li a{
+    font-family: var(--font-marcellus), monospace;
+    color: var(--color-goldenBrown);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.menu li a:hover{
+   color: var(--color-xanthous);
+}
+.menu li {
+    margin-top: 1.5rem;
+    margin-left: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.menu li:nth-last-child(2){
+    margin-right: 2rem;
+    border-bottom: 1px solid var(--color-coffee);
+}
+
+/* fix this */
+.social-icons{
+    display: block; 
+    margin-top: 1.5rem;
+    margin-left: 1.3rem;
+    font-size: 1rem;
+}
+
+
+.fa-brands{
+    color: var(--color-silver);
+    padding-right: 15px;
+}
+
+.fa-brands:hover{
+    color: #fff;
+}
+
+.hero {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+    background-image: url('./pics/hero2.jpg'); /* Set the background image */
+    background-size: cover;
+    background-position: center;
+  }
+.discover-btn {
+    position: absolute;
+    bottom: 6rem; /* Adjust this value to fine-tune the button's position */
+    left: 50%; /* Positions the button horizontally at the center */
+    transform: translateX(-50%); /* Centers the button horizontally */
+    padding: 15px 30px;
+    background-color: transparent; /* Button background color */
+    letter-spacing: 3px;
+    color: var(--color-timeberwolf);
+    border: 2px solid var(--color-whiteSmoke); /* Button border */
+    font-family: var(--font-marcellus);
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: font-size 0.3s ease;
+  }
+  .discover-btn::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2; /* Adjust opacity to control the intensity of the image */
+    z-index: -1; /* Ensure the image is behind the button text */
+  } 
+  
+  /* Hover effect for the button */
+  .discover-btn:hover {
+    background-color: var(--color-walnutBrown); /* Change background color on hover */
+    color: var(--color-timeberwolf); /* Change text color on hover */
+    font-size: 1.3rem;
+  }
+
+/* logo setting */
+.logo{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
