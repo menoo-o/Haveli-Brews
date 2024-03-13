@@ -3,6 +3,7 @@ const navDrop = document.querySelector('.nav-header');
 const dropMenu = document.querySelector('.menu')
 const dropBtn = document.querySelector('.fa-x');
 const main = document.querySelector('main');
+const footer = document.querySelector('footer');
 const hero = document.querySelector('.hero');
 
 // const images = ['./pics/hero.jpg'];
@@ -24,12 +25,14 @@ const hero = document.querySelector('.hero');
 navBtn.addEventListener('click', function(){
     navDrop.classList.add('nav-off');
     main.classList.add('check');
+    footer.classList.add('check');
     dropMenu.classList.add('drop-down');
 
 });
 dropBtn.addEventListener('click', function(){
     dropMenu.classList.remove('drop-down');
     main.classList.remove('check');
+    footer.classList.remove('check');
     navDrop.classList.remove('nav-off');
 })
 

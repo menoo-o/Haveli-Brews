@@ -39,7 +39,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     /* fix thiss */
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -55,7 +55,7 @@ body{
     }
 
 .navbar-classic{
-    background-color: #f8f7f4;
+    background-color: #ffffff;
 }    
 
 
@@ -216,15 +216,150 @@ body{
     padding: 0;
     margin: 0;
 }
+/* About Us */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-us{
+    margin-top: 2rem;
+    width: 80vw;
+    height: 25rem;
+    background-color:rgb(219, 187, 127);
+    position: relative;
+}
+.read-more{
+    position: absolute;
+    bottom: 2rem;
+    color: red;
+}
 
-.check{
-    display: none;
+/* heritage */
+.story-heri{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    width: 80vw;
+    height: 10rem;
+    background-color:rgb(219, 187, 127);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--color-sealBrown);
+}
+
+/* Cafe Menu */
+.menubg{
+    margin-top: 2rem;
+    width: 80vw;
+    height: 10rem;
+    position: relative;
+    background-image: url('./pics/hero4.jpg'); /* Set your image path */
+    background-size: cover;
+}
+.mn-btn {
+    position: absolute;
+    bottom: 5.2rem; /* Adjust this value to fine-tune the button's position */
+    left: 50%; /* Positions the button horizontally at the center */
+    transform: translateX(-50%); /* Centers the button horizontally */
+    padding: 10px 200px;
+    background-color: transparent; /* Button background color */
+    letter-spacing: 3px;
+    color: var(--color-xanthous);
+    border: none; /* Button border */
+    font-family: var(--font-marcellus);
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    z-index: 10;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  /* Hover effect for the button */
+  .mn-btn:hover {
+    color: #ffffff; /* Change text color on hover */
+    font-size: 2rem;
+    background-color: transparent;
+  }
+
+  /* coffee sourcing */
+.beans{
+    margin-top: 2rem;
+    width: 80vw;
+    height: 20rem;
+    position: relative;
+    background-image: url('./pics/hero2.jpg'); /* Set your image path */
+    background-size: cover;
+
 }
 
 
+/* query */
+.history{
+        margin: 2rem 0rem;
+        margin-bottom: 6rem;
+        width: 80vw;
+        height: 10rem;
+        background-color:rgb(219, 187, 127);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+}
+
+/* footer */
+footer{
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-eerie-black);
+}
+.footer{
+    width: 100vw; height: 300px;
+}
+
+.foot-lg{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+
+.bt-border{
+    margin: 0rem 2rem;
+    border-bottom: 1px solid var(--color-coffee);
+}
+.foot-ln{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-ln a{
+    padding: 0 10px;
+}
+.ft-si{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    margin-bottom: 2rem;
+}
+
+.ft-si a{
+    padding:  0 10px;
+}
 
 
- 
-  
-
-
+/* check class to remove everything except dropdown nav */
+.check{
+    display: none;
+}
