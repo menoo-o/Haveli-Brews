@@ -158,7 +158,7 @@ body{
   
 .discover-btn {
     position: absolute;
-    bottom: 1rem; /* Adjust this value to fine-tune the button's position */
+    bottom: 2.2rem; /* Adjust this value to fine-tune the button's position */
     left: 50%; /* Positions the button horizontally at the center */
     transform: translateX(-50%); /* Centers the button horizontally */
     padding: 15px 20px;
