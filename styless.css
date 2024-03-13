@@ -148,7 +148,7 @@ body{
     position: relative;
     width: 100%; /* Adjust the width as needed */
     height: 29.37rem; /* Adjust the height as needed */
-    background-image: url('./pics/hero1.jpg'); /* Set the background image */
+    background-image: url('./pics/hero.jpg'); /* Set the background image */
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -158,14 +158,14 @@ body{
   
 .discover-btn {
     position: absolute;
-    bottom: 3rem; /* Adjust this value to fine-tune the button's position */
+    bottom: 1rem; /* Adjust this value to fine-tune the button's position */
     left: 50%; /* Positions the button horizontally at the center */
     transform: translateX(-50%); /* Centers the button horizontally */
     padding: 15px 20px;
     background-color: transparent; /* Button background color */
     letter-spacing: 3px;
-    color: var(--color-Licorice);
-    border: 2px solid var(--color-silver); /* Button border */
+    color: var(--color-xanthous);
+    border: 2px solid var(--color-walnutBrown); /* Button border */
     font-family: var(--font-marcellus);
     font-size: 1.3rem;
     font-weight: 500;
@@ -180,8 +180,8 @@ body{
     position: absolute;
     top: -20px; /* Increase the top offset to extend the blur effect */
     left: -20px; /* Increase the left offset to extend the blur effect */
-    width: calc(100% + 10px); /* Adjust width to cover the entire button area */
-    height: calc(100% + 30px); /* Adjust height to cover the entire button area */
+    width: calc(100% + 5px); /* Adjust width to cover the entire button area */
+    height: calc(100% + 5px); /* Adjust height to cover the entire button area */
     background-image: inherit; /* Inherit background image from button */
     background-size: cover;
     background-color: var(--color-coffee);
