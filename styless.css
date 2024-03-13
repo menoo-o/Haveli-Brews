@@ -171,19 +171,26 @@ body{
     font-weight: 500;
     cursor: pointer;
     text-transform: uppercase;
+    z-index: 10;
     transition: font-size 0.3s ease;
   }
+
   .discover-btn::before {
     content: '';
     position: absolute;
-    top: 0px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1; /* Adjust opacity to control the intensity of the image */
-    z-index: -1; /* Ensure the image is behind the button text */
-  } 
+    top: -20px; /* Increase the top offset to extend the blur effect */
+    left: -20px; /* Increase the left offset to extend the blur effect */
+    width: calc(100% + 40px); /* Adjust width to cover the entire button area */
+    height: calc(100% + 40px); /* Adjust height to cover the entire button area */
+    background-image: inherit; /* Inherit background image from button */
+    background-size: cover;
+    background-color: var(--color-coffee);
+    filter: blur(40px); /* Increase the blur radius to make the background more blurred */
+    z-index: -1; /* Ensure it's behind the button content */
+  }
   
+
+
   /* Hover effect for the button */
   .discover-btn:hover {
     background-color: #aa6b30; /* Change background color on hover */
