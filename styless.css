@@ -164,8 +164,8 @@ body{
     padding: 15px 20px;
     background-color: transparent; /* Button background color */
     letter-spacing: 3px;
-    color: var(--color-eerie-black);
-    border: 2px solid var(--color-battleshipgray); /* Button border */
+    color: var(--color-Licorice);
+    border: 2px solid var(--color-silver); /* Button border */
     font-family: var(--font-marcellus);
     font-size: 1.3rem;
     font-weight: 500;
@@ -180,8 +180,8 @@ body{
     position: absolute;
     top: -20px; /* Increase the top offset to extend the blur effect */
     left: -20px; /* Increase the left offset to extend the blur effect */
-    width: calc(100% + 40px); /* Adjust width to cover the entire button area */
-    height: calc(100% + 40px); /* Adjust height to cover the entire button area */
+    width: calc(100% + 10px); /* Adjust width to cover the entire button area */
+    height: calc(100% + 15px); /* Adjust height to cover the entire button area */
     background-image: inherit; /* Inherit background image from button */
     background-size: cover;
     background-color: var(--color-coffee);
