@@ -152,10 +152,22 @@ body{
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    
   }
-
-
   
+
+/* could have done to the btn itself */
+ .hero::before{ 
+ content: '';
+ position: absolute;
+ bottom: 2.2rem; /* Adjust this value to fine-tune the button's position */
+ left: 50%; /* Positions the button horizontally at the center */
+ transform: translateX(-50%); /* Centers the button horizontally */
+  width: 182px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+  filter: blur(1px); /* Adjust the blur amount as needed */
+} 
 .discover-btn {
     position: absolute;
     bottom: 2.2rem; /* Adjust this value to fine-tune the button's position */
@@ -167,36 +179,19 @@ body{
     color: var(--color-xanthous);
     border: 2px solid var(--color-walnutBrown); /* Button border */
     font-family: var(--font-marcellus);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 500;
     cursor: pointer;
     text-transform: uppercase;
     z-index: 10;
     transition: font-size 0.3s ease;
   }
-
-  .discover-btn::before {
-    content: '';
-    position: absolute;
-    top: -20px; /* Increase the top offset to extend the blur effect */
-    left: -20px; /* Increase the left offset to extend the blur effect */
-    width: calc(100% + 5px); /* Adjust width to cover the entire button area */
-    height: calc(100% + 5px); /* Adjust height to cover the entire button area */
-    background-image: inherit; /* Inherit background image from button */
-    background-size: cover;
-    background-color: var(--color-coffee);
-    filter: blur(40px); /* Increase the blur radius to make the background more blurred */
-    z-index: -1; /* Ensure it's behind the button content */
-  }
-  
-
-
   /* Hover effect for the button */
   .discover-btn:hover {
-    background-color: #aa6b30; /* Change background color on hover */
-    color: #ffffff; /* Change text color on hover */
+    background-color: rgba(49, 34, 21, 0.8); /* Change background color on hover */
+    color: #ffffff; /*rgb(212, 153, 98) text color on hover */
     border: 2px solid transparent;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
 .text-h{

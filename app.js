@@ -6,17 +6,17 @@ const main = document.querySelector('main');
 const footer = document.querySelector('footer');
 const hero = document.querySelector('.hero');
 
-// const images = ['./pics/hero.jpg'];
+const images = [ './pics/hero.jpg', './pics/hero2.jpg', './pics/hero3.jpg' ];
 
-// let currentIndex = 1;
+let currentIndex = 1;
 
-// function changeImage() {
-//     hero.style.backgroundImage = `url('${images[currentIndex]}')`;
-//     currentIndex = (currentIndex + 1) % images.length;
-// }
+function changeImage() {
+    hero.style.backgroundImage = `url('${images[currentIndex]}')`;
+    currentIndex = (currentIndex + 1) % images.length;
+}
 
-// // Change image every 5 seconds
-// setInterval(changeImage, 4000);
+// Change image every 5 seconds
+setInterval(changeImage, 4000);
 
 
 
