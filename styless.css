@@ -39,7 +39,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     /* fix thiss */
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(135deg, transparent 0%, transparent 6%,rgba(71, 71, 71,0.04) 6%, rgba(71, 71, 71,0.04) 22%,transparent 22%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 20%,rgba(71, 71, 71,0.04) 20%, rgba(71, 71, 71,0.04) 47%,transparent 47%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 24%,rgba(71, 71, 71,0.04) 24%, rgba(71, 71, 71,0.04) 62%,transparent 62%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 73%,rgba(71, 71, 71,0.04) 73%, rgba(71, 71, 71,0.04) 75%,transparent 75%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
 }
 
 
@@ -173,7 +173,7 @@ body{
     bottom: 2.2rem; /* Adjust this value to fine-tune the button's position */
     left: 50%; /* Positions the button horizontally at the center */
     transform: translateX(-50%); /* Centers the button horizontally */
-    padding: 15px 20px;
+    padding: 15px 15px;
     background-color: transparent; /* Button background color */
     letter-spacing: 3px;
     color: var(--color-xanthous);
@@ -205,6 +205,54 @@ body{
     font-size: 2.1rem;
     width: 22rem;
 }  
+
+/* ramadan delight */
+.delights{
+        margin-top: 2rem;
+        width: 80vw;
+        height: 17rem;
+        position: relative;
+        background-image: url('./pics/delightss.png'); /* Set your image path */
+        background-size: cover;
+}
+
+.rd-btn {
+    position: absolute;
+    top: 7.2rem; /* Adjust this value to fine-tune the button's position */
+    left: 50%; /* Positions the button horizontally at the center */
+    transform: translateX(-50%); 
+    padding: 10px 200px;
+    background-color: rgba(235, 172, 0, 0.3); /* Button background color */
+    color: var(--color-bistre);
+    letter-spacing: 3px;
+    border: none; /* Button border */
+    font-family: var(--font-marcellus);
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    z-index: 10;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+  /* Hover effect for the button */
+.rd-btn:hover {
+    color: black; /* Change text color on hover */
+    font-size: 1.6rem;
+    background-color:
+  }
+
+
+/* beverages */
+.bevs{
+        margin-top: 2rem;
+        width: 80vw;
+        height: 20rem;
+        position: relative;
+        background-image: url('./pics/bevs.jpg'); /* Set your image path */
+        background-size: cover;
+}
+
 
 /* logo setting */
 .logo{
@@ -255,7 +303,7 @@ body{
     width: 80vw;
     height: 10rem;
     position: relative;
-    background-image: url('./pics/hero4.jpg'); /* Set your image path */
+    background-image: url('./pics/img/hero12.jpg'); /* Set your image path */
     background-size: cover;
 }
 .mn-btn {
@@ -291,9 +339,8 @@ body{
     width: 80vw;
     height: 20rem;
     position: relative;
-    background-image: url('./pics/hero2.jpg'); /* Set your image path */
+    background-image: url(./pics/img/coffee.jpg);
     background-size: cover;
-
 }
 
 
@@ -307,8 +354,7 @@ body{
         position: relative;
         display: flex;
         justify-content: center;
-        align-items: center;
-       
+        align-items: center;  
 }
 
 /* footer */

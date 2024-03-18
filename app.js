@@ -14,7 +14,6 @@ function changeImage() {
     hero.style.backgroundImage = `url('${images[currentIndex]}')`;
     currentIndex = (currentIndex + 1) % images.length;
 }
-
 // Change image every 5 seconds
 setInterval(changeImage, 4000);
 
