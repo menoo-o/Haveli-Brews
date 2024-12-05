@@ -6,7 +6,8 @@ const main = document.querySelector('main');
 const footer = document.querySelector('footer');
 const hero = document.querySelector('.hero');
 
-const images = [ './pics/hero.jpg', './pics/hero2.jpg', './pics/hero3.jpg' ];
+const images = [ './pics/hero.webp', './pics/hero2.webp', './pics/hero3.webp' ];
+
 
 let currentIndex = 1;
 
