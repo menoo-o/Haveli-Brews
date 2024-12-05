@@ -144,7 +144,7 @@ body{
     position: relative;
     width: 100%; /* Adjust the width as needed */
     height: 29.37rem; /* Adjust the height as needed */
-    background-image: url('./pics/hero3.jpg'); /* Set the background image */
+    background-image: url('./pics/hero3.webp'); /* Set the background image */
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -410,7 +410,7 @@ body{
         height: 20rem;
         margin-top: 2rem;
         position: relative;
-        background-image: url('./pics/sourcing.jpg'); /* Set your image path */
+        background-image: url('./pics/sourcing.webp'); /* Set your image path */
         background-size: cover;
         text-transform: uppercase;
         transition: filter 0.5s ease; /* Add transition for smooth effect */
